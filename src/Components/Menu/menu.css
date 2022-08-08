@@ -1,0 +1,75 @@
+
+
+.menu-wrapper {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    padding: 70px;
+    background-color: #161516;
+}
+
+.menu__header {
+    width: calc(100% - 180px);
+    margin: 0 auto 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.menu__shopping-cart {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.menu__card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.menu__total-items, .menu__total-price {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+
+.menu__total-cart-button {
+    background: #D58C51;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.menu__total-cart-button:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 860px) {
+    .menu__header {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__shopping-cart {
+        margin: auto;
+    }
+}
+

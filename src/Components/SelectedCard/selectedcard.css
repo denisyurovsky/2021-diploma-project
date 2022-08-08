@@ -1,0 +1,60 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.selected-card {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    transition: transform 0.2s ease-out 100ms;
+}
+
+
+.selected-card:hover {
+    transform: scale(1.1);
+}
+
+.selected-card img {
+    height: 171px;
+    width: 171px;
+}
+
+.selected-card__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+}
+
+.selected-card__price {
+    font-weight: normal;
+    font-size: 18px;
+    color: #D58C51;
+}
+
+.selected-card__delete-button {
+    justify-self: flex-end;
+    width: 30px;
+    height: 30px;
+    color: #D58C51;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #D58C51;
+    background-color: #161516;
+    border-radius: 50%;
+}
+
+.selected-card__delete-button:hover {
+    background-color: #D58C51;
+    color: #161516;
+}
+
+@media screen and (max-width: 680px) {
+
+    .selected-card {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

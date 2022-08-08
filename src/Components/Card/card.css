@@ -1,0 +1,68 @@
+.card {
+    font-family: Montserrat, sans-serif;
+    color: #D58C51;
+    box-sizing: border-box;
+    padding: 0 21px 0 21px;
+    margin: 0;
+    border: 1px solid #D58C51;
+    height: 500px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-out 100ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card__img {
+    height: 270px;
+    width: 270px;
+    margin: 43px 0 31px 0;
+}
+
+.card__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card__description {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.card__pricing {
+    display: flex;
+}
+
+.card__price {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card__weight {
+    flex: 1;
+    margin-top: 3px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.card__add-button {
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    background-color: #161516;
+    color: white;
+}
+
+.card__add-button:hover {
+    background-color: #D58C51;
+    cursor: pointer;
+}

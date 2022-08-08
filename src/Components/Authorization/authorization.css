@@ -1,0 +1,62 @@
+.authorization-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/auth-background.png);
+    background-size: cover;
+}
+
+
+.authorization-form {
+    background-color: white;
+    opacity: 0.9;
+    width: 460px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.authorization-form__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}
+
+.authorization-form__title {
+    margin-top: 36px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.authorization-form__email-input, .authorization-form__password-input {
+    border: 1px solid #D58C51;
+    border-radius: 61px;
+    height: 39px;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.authorization-form__login-button {
+    border: none;
+    background: #D58C51;
+    align-self: center;
+    height: 42px;
+    width: 200px;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+.authorization-form__login-button:hover {
+    cursor: pointer;
+}
+
+.authorization-form__login-button:active {
+    opacity: 0.5;
+}
